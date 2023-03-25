@@ -1,1 +1,17 @@
 import customtkinter
+
+customtkinter.set_appearence_mode("dark")
+customtkinter.set_default_color_theme("dark-blue")
+
+janela = customtkinter.CTk()
+janela.geometry("500x300")
+
+def clique():
+    print("Fazer Login")
+
+texto = customtkinter.CTkLabel(janela, text="Fazer Login")
+email = customtkinter.CTkEntry(janela, placeholder_text="E-mail")
+senha = customtkinter.CTkEntry(janela, placeHolder_text="Senha", show="*")
+
+botao = customtkinter.CTkButton(janela, text="login", command=clique)
+janela.mainloop()
