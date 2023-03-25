@@ -14,4 +14,11 @@ email = customtkinter.CTkEntry(janela, placeholder_text="E-mail")
 senha = customtkinter.CTkEntry(janela, placeHolder_text="Senha", show="*")
 
 botao = customtkinter.CTkButton(janela, text="login", command=clique)
+
+texto.pack(padx=10, pady=10)
+email.pack(padx=10, pady=10)
+senha.pack(padx=10, pady=10)
+botao.pack(padx=10, pady=10)
+
 janela.mainloop()
+
