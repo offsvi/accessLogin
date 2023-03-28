@@ -6,6 +6,8 @@ customtkinter.set_default_color_theme("dark-blue")
 janela = customtkinter.CTk()
 janela.geometry("500x300")
 
+
+
 def clique():
     print("Fazer Login")
 
@@ -21,4 +23,5 @@ senha.pack(padx=10, pady=10)
 botao.pack(padx=10, pady=10)
 
 janela.mainloop()
+
 
