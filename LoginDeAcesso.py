@@ -21,7 +21,6 @@ texto.pack(padx=10, pady=10)
 email.pack(padx=10, pady=10)
 senha.pack(padx=10, pady=10)
 botao.pack(padx=10, pady=10)
-
 janela.mainloop()
 
 
