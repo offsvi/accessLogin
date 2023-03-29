@@ -9,7 +9,7 @@ janela.geometry("500x300")
 
 
 def clique():
-    print("Fazer Login")
+    print("Fazer Loginn")
 
 texto = customtkinter.CTkLabel(janela, text="Fazer Login")
 email = customtkinter.CTkEntry(janela, placeholder_text="E-mail")
